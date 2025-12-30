@@ -45,14 +45,24 @@ public class ManualEmployeeExcelService {
 		
 		List<Employee> employees = []
 		println "Last row index: ${sheet.getLastRowNum()}" // It returns 999
+		int cntNull = 0
 		for(int r = 1; r <= sheet.getLastRowNum(); r++) {
+			if(cntNull > 3) {
+				println "cntNull = ${cntNull}"
+				break;
+			}
+			
 			Row row = sheet.getRow(r)
 
 			if(row == null) continue
 			
 			def name = ExcelUtil.cellValue(row, h["Name"])?.toString()?.trim()
 
-			if(!name) continue
+			// If there are many rows that don't have data -> Stop looping
+			if(!name) {
+				cntNull++
+				continue
+			}
 			
 			Employee e = new Employee(
 				name: name,
@@ -84,7 +94,6 @@ public class ManualEmployeeExcelService {
 		def vndValue = ExcelUtil.cellValue(row2, 1)
 		BigDecimal vnd = vndValue != null ? new BigDecimal(vndValue.toString()) : null
 
-		
 		return new ExchangeRate(usd: usd, vnd: vnd)
 	}
 }
