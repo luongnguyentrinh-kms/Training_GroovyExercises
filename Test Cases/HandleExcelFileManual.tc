@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case runs script for handling Excel file</description>
+   <name>HandleExcelFileManual</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>479ecf09-2441-42ba-abc6-f94307760e79</testCaseGuid>
+</TestCaseEntity>

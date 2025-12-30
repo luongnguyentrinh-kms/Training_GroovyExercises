@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HandleJsonFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>940cd30d-4c5b-483e-83fb-b36e9a9681a1</testCaseGuid>
+</TestCaseEntity>
