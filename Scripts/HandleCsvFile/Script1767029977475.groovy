@@ -14,5 +14,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import services.TestDataEmployeeCsvService
+
 import org.openqa.selenium.Keys as Keys
+
+// ========================== HANDLE FILE CSV BY TEST DATA IN KATALON =======================
+// Read all employees from csv file
+def employees = TestDataEmployeeCsvService.readEmployees("Data Files/CSVEmployeeData")
+println "Number of employees: ${employees.size()}"
+println "Detail employess ${employees}"
+
+// Read the exchange rate from csv file
+def rate = TestDataEmployeeCsvService.readExchangeRate("Data Files/CSVExchangeRateData")
+println "Rate: ${rate}"

@@ -5,9 +5,9 @@
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
+   <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>4a240a17-47b2-4a65-8904-d814bd3a3ff6</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>C:\Luong\Code\GroovyExercises\Data Files\CsvEmployeeDataByJson.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

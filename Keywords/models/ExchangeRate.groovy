@@ -21,10 +21,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class ExchangeRate {
-	BigDecimal usdToVnd
+	
+	BigDecimal usd
+	BigDecimal vnd
 	
 	@Override
 	String toString() {
-		return "Employee(" + "usdToVnd='${usdToVnd}'" + ")"
+		return "Employee(" +
+           "usd='${usd}', " +
+           "vnd='${vnd}'" +
+           ")"
 	}
 }

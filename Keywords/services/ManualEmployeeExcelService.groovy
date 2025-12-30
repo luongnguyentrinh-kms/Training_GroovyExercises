@@ -78,9 +78,13 @@ public class ManualEmployeeExcelService {
 		Row row2 = sheet.getRow(1)
 		if(row2 == null) throw new IllegalArgumentException("exchange rate sheet missing row 2")
 			
-		def vndValue = ExcelUtil.cellValue(row2, 1)
-		BigDecimal rate = new BigDecimal(((Number) vndValue).toString())
+		def usdValue = ExcelUtil.cellValue(row2, 0)
+		BigDecimal usd = usdValue != null ? new BigDecimal(usdValue.toString()) : null
 		
-		return new ExchangeRate(usdToVnd: rate)
+		def vndValue = ExcelUtil.cellValue(row2, 1)
+		BigDecimal vnd = vndValue != null ? new BigDecimal(vndValue.toString()) : null
+
+		
+		return new ExchangeRate(usd: usd, vnd: vnd)
 	}
 }

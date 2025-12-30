@@ -22,8 +22,19 @@ import internal.GlobalVariable
 
 import java.time.LocalDate
 import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 
 public class DateUtil {
+	static final List<DateTimeFormatter> FORMATTERS = [
+		DateTimeFormatter.ISO_LOCAL_DATE,                 // 2011-04-25
+		DateTimeFormatter.ofPattern("M/d/yyyy"),          // 4/25/2011
+		DateTimeFormatter.ofPattern("MM/dd/yyyy"),        // 04/25/2011
+		DateTimeFormatter.ofPattern("d/M/yyyy"),          // 25/4/2011
+		DateTimeFormatter.ofPattern("dd/MM/yyyy")         // 25/04/2011
+	]
+	
+	
 	static LocalDate toLocalDate(Object cellValue) {
 		if(cellValue == null) return null
 		
@@ -32,5 +43,18 @@ public class DateUtil {
 		}
 		
 		// TODO: Check more return type
+		if(cellValue instanceof CharSequence) {
+			String s = cellValue.toString().trim()
+			
+			if (!s) return null
+			
+			for (def fmt : FORMATTERS) {
+				try {
+					return LocalDate.parse(s, fmt)
+				} catch (DateTimeParseException ignored) {}
+			}
+			
+			throw new IllegalArgumentException("Unrecognized date format: '${s}'")
+		}
 	}
 }

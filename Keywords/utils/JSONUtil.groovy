@@ -23,6 +23,15 @@ import groovy.json.JsonSlurper
 import internal.GlobalVariable
 
 public class JSONUtil {
+	static Object readJson(String filePath) {
+		File file = new File(filePath)
+		
+		if(!file.exists()) {
+			throw new IllegalArgumentException("JSON file not found: " + filePath)
+		}
+		return new JsonSlurper().parse(file)
+	}
+	
 	static String toPrettyJson(Object data) {
 		return JsonOutput.prettyPrint(JsonOutput.toJson(data))
 	}
@@ -36,14 +45,5 @@ public class JSONUtil {
 		file.withWriter("UTF-8") { writer ->
 			writer << json
 		}
-	}
-	
-	static Object readJson(String filePath) {
-		File file = new File(filePath)
-		
-		if(!file.exists()) {
-			throw new IllegalArgumentException("JSON file not found: " + filePath)
-		}
-		return new JsonSlurper().parse(file)
 	}
 }

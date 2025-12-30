@@ -22,5 +22,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CSVUtil {
+	static String escape(Object v) {
+		if (v == null) return ""
+		String s = v.toString()
+		boolean needQuote = s.contains(",") || s.contains("\"") || s.contains("\n") || s.contains("\r")
+		s = s.replace("\"", "\"\"")
+		return needQuote ? "\"${s}\"" : s
+	}
+	
+	static void writeCsv(String filePath, List<String> headers, List<Map> rows) {
+		File file = new File(filePath)
+		file.parentFile?.mkdirs()
+		
+		file.withWriter("UTF-8") { w ->
+			w << headers.collect { escape(it) }.join(",") << "\n"
+			rows.each { r ->
+				w << headers.collect { h -> escape(r[h]) }.join(",") << "\n"
+			}
+		}
+	}
 	
 }

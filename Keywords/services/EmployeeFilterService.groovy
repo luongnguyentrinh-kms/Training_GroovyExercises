@@ -57,7 +57,7 @@ public class EmployeeFilterService {
 			if(e.position == null || e.salaryUsd == null) return false
 			boolean pos = positions.any{p -> e.position.equals(p)}
 			if(!pos) return false
-			BigDecimal salaryVnd = MoneyUtil.usdToVnd(e.salaryUsd, rate.usdToVnd)
+			BigDecimal salaryVnd = MoneyUtil.usdToVnd(e.salaryUsd, rate.vnd)
 			
 			return salaryVnd < maxVnd
 		}

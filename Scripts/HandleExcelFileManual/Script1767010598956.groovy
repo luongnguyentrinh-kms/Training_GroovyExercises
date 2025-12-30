@@ -76,7 +76,7 @@ println "People with position as Accountant or Software Engineer and salary < 5 
 // 8) Write all data to JSON file
 def payload = [
 		rate: [
-			usdToVnd: rate.usdToVnd
+			"one_usd": rate.vnd
 		],
 		meta: [
 			exportedAt: new Date().toString(),
