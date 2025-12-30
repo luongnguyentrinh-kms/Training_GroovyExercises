@@ -27,7 +27,7 @@ import java.time.LocalDate
 
 public class EmployeeFilterService {
 	static BigDecimal salaryOfBradley(List<Employee> employees) {
-		Employee e = employees.find { it.name?.equals("Bradley Greer") }
+		Employee e = employees.find { it.name?.trim().equalsIgnoreCase("Bradley Greer") }
 		return e?.salaryUsd
 	}
 	
@@ -36,7 +36,7 @@ public class EmployeeFilterService {
 	}
 	
 	static List<Employee> firstMinNumInOffice(List<Employee> employees, String office, int minNum){
-		def list = employees.findAll { it.office?.equals(office) }
+		def list = employees.findAll { it.office?.trim().equalsIgnoreCase(office) }
 		return list.take(minNum)
 	}
 	
@@ -55,7 +55,7 @@ public class EmployeeFilterService {
 	static List<Employee> withPositionAndSalaryLessThanVnd(List<Employee> employees, List<String> positions, BigDecimal maxVnd, ExchangeRate rate){
 		return employees.findAll { e ->
 			if(e.position == null || e.salaryUsd == null) return false
-			boolean pos = positions.any{p -> e.position.equals(p)}
+			boolean pos = positions.any{p -> e.position.trim().equalsIgnoreCase(p)}
 			if(!pos) return false
 			BigDecimal salaryVnd = MoneyUtil.usdToVnd(e.salaryUsd, rate.vnd)
 			
