@@ -22,6 +22,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CSVUtil {
+	// Handle case that have "," in the data
 	static String escape(Object v) {
 		if (v == null) return ""
 		String s = v.toString()
