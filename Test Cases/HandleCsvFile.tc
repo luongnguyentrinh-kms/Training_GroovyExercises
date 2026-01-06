@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case runs script for handling Excel file</description>
    <name>HandleCsvFile</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a2b6152a-073e-4aa0-88ef-839586859ea3</testCaseGuid>
+   <testCaseGuid>8e5d5c11-d234-4d39-b0ea-8691888784f1</testCaseGuid>
 </TestCaseEntity>

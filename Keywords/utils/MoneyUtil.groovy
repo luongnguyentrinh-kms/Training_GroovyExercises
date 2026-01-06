@@ -21,18 +21,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MoneyUtil {
-	static BigDecimal parseUsd(Object cellValue) {
-		if(cellValue == null) return null
-		
-		String s = cellValue.toString().trim()
-		if(!s) return null
-		
-		s = s.replace('$', '').replace(',', '').trim()
-		return new BigDecimal(s)
-	}
-	
-	static BigDecimal usdToVnd(BigDecimal usd, BigDecimal usdToVndRate) {
-		if (usd == null || usdToVndRate == null) return null
-		return usd * usdToVndRate
-	}
+    static BigDecimal parseUsd(Object cellValue) {
+        if(cellValue == null) return null
+        
+        String s = cellValue.toString().trim()
+        if(!s) return null
+        
+        s = s.replace('$', '').replace(',', '').trim()
+        return new BigDecimal(s)
+    }
+    
+    static BigDecimal usdToVnd(BigDecimal usd, BigDecimal usdToVndRate) {
+        if (usd == null || usdToVndRate == null) return null
+        return usd * usdToVndRate
+    }
 }
