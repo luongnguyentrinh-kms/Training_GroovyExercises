@@ -1,467 +1,524 @@
 {
     "rate": {
-        "one_usd": 25000
+        "one_usd": 25000.0
     },
     "meta": {
-        "exportedAt": "Tue Dec 30 11:14:24 ICT 2025",
+        "exportedAt": "Tue Jan 06 16:45:12 ICT 2026",
         "total": 57
     },
     "employees": [
         {
+            "id": 412626234126219238,
             "name": "Tiger Nixon",
             "position": "System Architect",
             "office": "Edinburgh",
             "age": 61,
             "startDate": "2011-04-25",
-            "salaryUsd": 320
+            "salaryUsd": 320.0
         },
         {
+            "id": 3951668530823448906,
             "name": "Garrett Winters",
             "position": "Accountant",
             "office": "Tokyo",
             "age": 63,
             "startDate": "2011-07-25",
-            "salaryUsd": 170
+            "salaryUsd": 170.0
         },
         {
+            "id": 6866641013083883789,
             "name": "Ashton Cox",
             "position": "Junior Technical Author",
             "office": "San Francisco",
             "age": 66,
             "startDate": "2009-01-12",
-            "salaryUsd": 86
+            "salaryUsd": 86.0
         },
         {
+            "id": 6120050293975004470,
             "name": "Cedric Kelly",
             "position": "Senior Javascript Developer",
             "office": "Edinburgh",
             "age": 22,
             "startDate": "2012-03-29",
-            "salaryUsd": 433
+            "salaryUsd": 433.0
         },
         {
+            "id": 6236774902000367509,
             "name": "Airi Satou",
             "position": "Accountant",
             "office": "Tokyo",
             "age": 33,
             "startDate": "2008-11-28",
-            "salaryUsd": 162
+            "salaryUsd": 162.0
         },
         {
+            "id": 4600267525968514640,
             "name": "Brielle Williamson",
             "position": "Integration Specialist",
             "office": "New York",
             "age": 61,
             "startDate": "2012-12-02",
-            "salaryUsd": 372
+            "salaryUsd": 372.0
         },
         {
+            "id": 6608560757483420989,
             "name": "Herrod Chandler",
             "position": "Sales Assistant",
             "office": "San Francisco",
             "age": 59,
             "startDate": "2012-08-06",
-            "salaryUsd": 137
+            "salaryUsd": 137.0
         },
         {
+            "id": 5208662193411735926,
             "name": "Rhona Davidson",
             "position": "Integration Specialist",
             "office": "Tokyo",
             "age": 55,
             "startDate": "2010-10-14",
-            "salaryUsd": 327
+            "salaryUsd": 327.0
         },
         {
+            "id": 6525403072018169272,
             "name": "Colleen Hurst",
             "position": "Javascript Developer",
             "office": "San Francisco",
             "age": 39,
             "startDate": "2009-09-15",
-            "salaryUsd": 205
+            "salaryUsd": 205.0
         },
         {
+            "id": 4518337780803653362,
             "name": "Sonya Frost",
             "position": "Software Engineer",
             "office": "Edinburgh",
             "age": 23,
             "startDate": "2008-12-13",
-            "salaryUsd": 103
+            "salaryUsd": 103.0
         },
         {
+            "id": 3050744314442267833,
             "name": "Jena Gaines",
             "position": "Office Manager",
             "office": "London",
             "age": 30,
             "startDate": "2008-12-19",
-            "salaryUsd": 90
+            "salaryUsd": 90.0
         },
         {
+            "id": 1692343526988430501,
             "name": "Quinn Flynn",
             "position": "Support Lead",
             "office": "Edinburgh",
             "age": 22,
             "startDate": "2013-03-03",
-            "salaryUsd": 342
+            "salaryUsd": 342.0
         },
         {
+            "id": 2859197894195199034,
             "name": "Charde Marshall",
             "position": "Regional Director",
             "office": "San Francisco",
             "age": 36,
             "startDate": "2008-10-16",
-            "salaryUsd": 470
+            "salaryUsd": 470.0
         },
         {
+            "id": 1109753799280736849,
             "name": "Haley Kennedy",
             "position": "Senior Marketing Designer",
             "office": "London",
             "age": 43,
             "startDate": "2012-12-18",
-            "salaryUsd": 313
+            "salaryUsd": 313.0
         },
         {
+            "id": 8553783527454718147,
             "name": "Tatyana Fitzpatrick",
             "position": "Regional Director",
             "office": "London",
             "age": 19,
             "startDate": "2010-03-17",
-            "salaryUsd": 385
+            "salaryUsd": 385.0
         },
         {
+            "id": 7294686261843150143,
             "name": "Michael Silva",
             "position": "Marketing Designer",
             "office": "London",
             "age": 66,
             "startDate": "2012-11-27",
-            "salaryUsd": 198
+            "salaryUsd": 198.0
         },
         {
+            "id": 887055945191607839,
             "name": "Paul Byrd",
             "position": "Chief Financial Officer (CFO)",
             "office": "New York",
             "age": 64,
             "startDate": "2010-06-09",
-            "salaryUsd": 725
+            "salaryUsd": 725.0
         },
         {
+            "id": 5024180832551482624,
             "name": "Gloria Little",
             "position": "Systems Administrator",
             "office": "New York",
             "age": 59,
             "startDate": "2009-04-10",
-            "salaryUsd": 237
+            "salaryUsd": 237.0
         },
         {
+            "id": 8839326984702703301,
             "name": "Bradley Greer",
             "position": "Software Engineer",
             "office": "London",
             "age": 41,
             "startDate": "2012-10-13",
-            "salaryUsd": 132
+            "salaryUsd": 132.0
         },
         {
+            "id": 8726233291495946539,
             "name": "Dai Rios",
             "position": "Personnel Lead",
             "office": "Edinburgh",
             "age": 35,
             "startDate": "2012-09-26",
-            "salaryUsd": 217
+            "salaryUsd": 217.0
         },
         {
+            "id": 2576193693360672466,
             "name": "Jenette Caldwell",
             "position": "Development Lead",
             "office": "New York",
             "age": 30,
             "startDate": "2011-09-03",
-            "salaryUsd": 345
+            "salaryUsd": 345.0
         },
         {
+            "id": 8055764200314616188,
             "name": "Yuri Berry",
             "position": "Chief Marketing Officer (CMO)",
             "office": "New York",
             "age": 40,
             "startDate": "2009-06-25",
-            "salaryUsd": 675
+            "salaryUsd": 675.0
         },
         {
+            "id": 7063433083865353484,
             "name": "Caesar Vance",
             "position": "Pre-Sales Support",
             "office": "New York",
             "age": 21,
             "startDate": "2011-12-12",
-            "salaryUsd": 106
+            "salaryUsd": 106.0
         },
         {
+            "id": 5529074261866727747,
             "name": "Doris Wilder",
             "position": "Sales Assistant",
             "office": "Sydney",
             "age": 23,
             "startDate": "2010-09-20",
-            "salaryUsd": 85
+            "salaryUsd": 85.0
         },
         {
+            "id": 4954014978197929794,
             "name": "Angelica Ramos",
             "position": "Chief Executive Officer (CEO)",
             "office": "London",
             "age": 47,
             "startDate": "2009-10-09",
-            "salaryUsd": 1
+            "salaryUsd": 1.0
         },
         {
+            "id": 4711240591237561606,
             "name": "Gavin Joyce",
             "position": "Developer",
             "office": "Edinburgh",
             "age": 42,
             "startDate": "2010-12-22",
-            "salaryUsd": 92
+            "salaryUsd": 92.0
         },
         {
+            "id": 7591439500652819432,
             "name": "Jennifer Chang",
             "position": "Regional Director",
             "office": "Singapore",
             "age": 28,
             "startDate": "2010-11-14",
-            "salaryUsd": 357
+            "salaryUsd": 357.0
         },
         {
+            "id": 4598792137194256423,
             "name": "Brenden Wagner",
             "position": "Software Engineer",
             "office": "San Francisco",
             "age": 28,
             "startDate": "2011-06-07",
-            "salaryUsd": 206
+            "salaryUsd": 206.0
         },
         {
+            "id": 9085838658997433407,
             "name": "Fiona Green",
             "position": "Chief Operating Officer (COO)",
             "office": "San Francisco",
             "age": 48,
             "startDate": "2010-03-11",
-            "salaryUsd": 850
+            "salaryUsd": 850.0
         },
         {
+            "id": 1522110114099119732,
             "name": "Shou Itou",
             "position": "Regional Marketing",
             "office": "Tokyo",
             "age": 20,
             "startDate": "2011-08-14",
-            "salaryUsd": 163
+            "salaryUsd": 163.0
         },
         {
+            "id": 7353933521424003848,
             "name": "Michelle House",
             "position": "Integration Specialist",
             "office": "Sydney",
             "age": 37,
             "startDate": "2011-06-02",
-            "salaryUsd": 95
+            "salaryUsd": 95.0
         },
         {
+            "id": 3021689795572944608,
             "name": "Suki Burks",
             "position": "Developer",
             "office": "London",
             "age": 53,
             "startDate": "2009-10-22",
-            "salaryUsd": 114
+            "salaryUsd": 114.0
         },
         {
+            "id": 9102178389503921523,
             "name": "Prescott Bartlett",
             "position": "Technical Author",
             "office": "London",
             "age": 27,
             "startDate": "2011-05-07",
-            "salaryUsd": 145
+            "salaryUsd": 145.0
         },
         {
+            "id": 7200242763785391989,
             "name": "Gavin Cortez",
             "position": "Team Leader",
             "office": "San Francisco",
             "age": 22,
             "startDate": "2008-10-26",
-            "salaryUsd": 235
+            "salaryUsd": 235.0
         },
         {
+            "id": 2805268432743973037,
             "name": "Martena Mccray",
             "position": "Post-Sales support",
             "office": "Edinburgh",
             "age": 46,
             "startDate": "2011-03-09",
-            "salaryUsd": 324
+            "salaryUsd": 324.0
         },
         {
+            "id": 6919058873891008688,
             "name": "Unity Butler",
             "position": "Marketing Designer",
             "office": "San Francisco",
             "age": 47,
             "startDate": "2009-12-09",
-            "salaryUsd": 85
+            "salaryUsd": 85.0
         },
         {
+            "id": 3076788403826671788,
             "name": "Howard Hatfield",
             "position": "Office Manager",
             "office": "San Francisco",
             "age": 51,
             "startDate": "2008-12-16",
-            "salaryUsd": 164
+            "salaryUsd": 164.0
         },
         {
+            "id": 7394289136534928200,
             "name": "Hope Fuentes",
             "position": "Secretary",
             "office": "San Francisco",
             "age": 41,
             "startDate": "2010-02-12",
-            "salaryUsd": 109
+            "salaryUsd": 109.0
         },
         {
+            "id": 8543071968842330614,
             "name": "Vivian Harrell",
             "position": "Financial Controller",
             "office": "San Francisco",
             "age": 62,
             "startDate": "2009-02-14",
-            "salaryUsd": 452
+            "salaryUsd": 452.0
         },
         {
+            "id": 8407920381019834790,
             "name": "Timothy Mooney",
             "position": "Office Manager",
             "office": "London",
             "age": 37,
             "startDate": "2008-12-11",
-            "salaryUsd": 136
+            "salaryUsd": 136.0
         },
         {
+            "id": 2230947978720099423,
             "name": "Jackson Bradshaw",
             "position": "Director",
             "office": "New York",
             "age": 65,
             "startDate": "2008-09-26",
-            "salaryUsd": 645
+            "salaryUsd": 645.0
         },
         {
+            "id": 5172679015547843215,
             "name": "Olivia Liang",
             "position": "Support Engineer",
             "office": "Singapore",
             "age": 64,
             "startDate": "2011-02-03",
-            "salaryUsd": 234
+            "salaryUsd": 234.0
         },
         {
+            "id": 2596209937455690706,
             "name": "Bruno Nash",
             "position": "Software Engineer",
             "office": "London",
             "age": 38,
             "startDate": "2011-05-03",
-            "salaryUsd": 163
+            "salaryUsd": 163.0
         },
         {
+            "id": 284336010001037662,
             "name": "Sakura Yamamoto",
             "position": "Support Engineer",
             "office": "Tokyo",
             "age": 37,
             "startDate": "2009-08-19",
-            "salaryUsd": 139
+            "salaryUsd": 139.0
         },
         {
+            "id": 6822543120777392652,
             "name": "Thor Walton",
             "position": "Developer",
             "office": "New York",
             "age": 61,
             "startDate": "2013-08-11",
-            "salaryUsd": 98
+            "salaryUsd": 98.0
         },
         {
+            "id": 5740653157730043496,
             "name": "Finn Camacho",
             "position": "Support Engineer",
             "office": "San Francisco",
             "age": 47,
             "startDate": "2009-07-07",
-            "salaryUsd": 87
+            "salaryUsd": 87.0
         },
         {
+            "id": 2553330227625704561,
             "name": "Serge Baldwin",
             "position": "Data Coordinator",
             "office": "Singapore",
             "age": 64,
             "startDate": "2012-04-09",
-            "salaryUsd": 138
+            "salaryUsd": 138.0
         },
         {
+            "id": 6140492463767440598,
             "name": "Zenaida Frank",
             "position": "Software Engineer",
             "office": "New York",
             "age": 63,
             "startDate": "2010-01-04",
-            "salaryUsd": 125
+            "salaryUsd": 125.0
         },
         {
+            "id": 4595048186255199248,
             "name": "Zorita Serrano",
             "position": "Software Engineer",
             "office": "San Francisco",
             "age": 56,
             "startDate": "2012-06-01",
-            "salaryUsd": 115
+            "salaryUsd": 115.0
         },
         {
+            "id": 6797316118584799835,
             "name": "Jennifer Acosta",
             "position": "Junior Javascript Developer",
             "office": "Edinburgh",
             "age": 43,
             "startDate": "2013-02-01",
-            "salaryUsd": 75
+            "salaryUsd": 75.0
         },
         {
+            "id": 5080298059517047233,
             "name": "Cara Stevens",
             "position": "Sales Assistant",
             "office": "New York",
             "age": 46,
             "startDate": "2011-12-06",
-            "salaryUsd": 145
+            "salaryUsd": 145.0
         },
         {
+            "id": 856425243799696358,
             "name": "Hermione Butler",
             "position": "Regional Director",
             "office": "London",
             "age": 47,
             "startDate": "2011-03-21",
-            "salaryUsd": 356
+            "salaryUsd": 356.0
         },
         {
+            "id": 1187976122784070821,
             "name": "Lael Greer",
             "position": "Systems Administrator",
             "office": "London",
             "age": 21,
             "startDate": "2009-02-27",
-            "salaryUsd": 103
+            "salaryUsd": 103.0
         },
         {
+            "id": 4100936358792641265,
             "name": "Jonas Alexander",
             "position": "Developer",
             "office": "San Francisco",
             "age": 30,
             "startDate": "2010-07-14",
-            "salaryUsd": 86
+            "salaryUsd": 86.0
         },
         {
+            "id": 1759366479073070214,
             "name": "Shad Decker",
             "position": "Regional Director",
             "office": "Edinburgh",
             "age": 51,
             "startDate": "2008-11-13",
-            "salaryUsd": 183
+            "salaryUsd": 183.0
         },
         {
+            "id": 1627154475432560354,
             "name": "Michael Bruce",
             "position": "Javascript Developer",
             "office": "Singapore",
             "age": 29,
             "startDate": "2011-06-27",
-            "salaryUsd": 183
+            "salaryUsd": 183.0
         },
         {
+            "id": 1325159036538829839,
             "name": "Donna Snider",
             "position": "Customer Support",
             "office": "New York",
             "age": 27,
             "startDate": "2011-01-25",
-            "salaryUsd": 112
+            "salaryUsd": 112.0
         }
     ]
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This test case runs script for handling Excel file</description>
-   <name>HandleExcelFileManual</name>
+   <name>HandleExcelFile</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

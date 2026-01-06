@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case runs script for handling Excel file</description>
    <name>HandleJsonFile</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>940cd30d-4c5b-483e-83fb-b36e9a9681a1</testCaseGuid>
+   <testCaseGuid>11bc00dd-6d5a-453a-b4fb-fee8cedefa65</testCaseGuid>
 </TestCaseEntity>
